@@ -1,0 +1,28 @@
+{
+  "invoice_number": "INV-123456",
+  "date": "2023-10-01",
+  "due_date": "2023-10-15",
+  "bill_to": {
+    "name": "John Doe",
+    "address": "123 Main St, Anytown, USA",
+    "email": "john.doe@example.com"
+  },
+  "items": [
+    {
+      "description": "Consulting Services",
+      "quantity": 10,
+      "unit_price": 100,
+      "total": 1000
+    },
+    {
+      "description": "Software License",
+      "quantity": 5,
+      "unit_price": 200,
+      "total": 1000
+    }
+  ],
+  "subtotal": 2000,
+  "tax": 200,
+  "total": 2200,
+  "notes": "Thank you for your business!"
+}

@@ -1,0 +1,16 @@
+Subject: Sample Email for Testing
+
+Dear Team,
+
+I hope this message finds you well. I am writing to request a quote for the following items:
+
+1. Item A - Quantity: 10
+2. Item B - Quantity: 5
+
+Please let me know the pricing and availability at your earliest convenience.
+
+Thank you!
+
+Best regards,
+John Doe
+johndoe@example.com
