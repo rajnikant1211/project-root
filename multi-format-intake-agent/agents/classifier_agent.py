@@ -56,5 +56,6 @@ class ClassifierAgent:
 
     def process_input(self, raw_input):
         format_type, intent = self.classify_input(raw_input)
-        self.memory_store.add_metadata(format_type, intent)
+        if hasattr(self.memory_store, 'add_metadata'):
+            self.memory_store.add_metadata(format_type, intent)
         return self.route_to_agent(format_type, intent, raw_input)

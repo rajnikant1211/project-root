@@ -1,6 +1,6 @@
 class JSONAgent:
-    def __init__(self):
-        pass
+    def __init__(self, memory_store):
+        self.memory_store = memory_store
 
     def extract_and_reformat(self, json_input):
         # Implement extraction and reformatting logic here

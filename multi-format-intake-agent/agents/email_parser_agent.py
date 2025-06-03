@@ -1,5 +1,6 @@
 class EmailParserAgent:
-    def __init__(self):
+    def __init__(self, memory_store):
+        self.memory_store = memory_store
         self.conversation_id = None
 
     def parse_email(self, email_body):
